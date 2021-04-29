@@ -1,7 +1,7 @@
-channel1: {auto_water: false, dry_point: 27, enabled: true, pump_speed: 0.5, pump_time: 0.5,
-  warn_level: 0.4, watering_delay: 60, wet_point: 3}
-channel2: {auto_water: false, dry_point: 27, enabled: true, pump_speed: 0.5, pump_time: 0.5,
-  warn_level: 0.5, watering_delay: 60, wet_point: 3}
-channel3: {auto_water: false, dry_point: 5.5, enabled: true, pump_speed: 0.5, pump_time: 0.5,
-  warn_level: 0.7, watering_delay: 60, wet_point: 3.0}
+channel1: {name: "rosemary", auto_water: false, dry_point: 6, enabled: true, pump_speed: 0.5, pump_time: 0.5,
+  warn_level: 0.3, watering_delay: 60, wet_point: 1.2}
+channel2: {name: "mint", auto_water: false, dry_point: 8, enabled: true, pump_speed: 0.5, pump_time: 0.5,
+  warn_level: 0.3, watering_delay: 60, wet_point: 0.9}
+channel3: {name: "basil", auto_water: false, dry_point: 4.5, enabled: true, pump_speed: 0.5, pump_time: 0.5,
+  warn_level: 0.3, watering_delay: 60, wet_point: 1.0}
 general: {alarm_enable: true, alarm_interval: 2}
